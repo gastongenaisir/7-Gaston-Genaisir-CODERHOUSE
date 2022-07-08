@@ -15,7 +15,7 @@
 .padre{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 20% 77% auto;
+    grid-template-rows: 25% 72% 3%;
     grid-template-areas: "header header header"
                          "hero   hero   hero"
                          "footer footer footer";
@@ -30,7 +30,7 @@
     }
 .hijo2{
     grid-area: hero;
-    min-height: 80.7vh;
+    min-height: 70vh;
     background-color: rgb(34, 9, 9);
     background-image: url(../img/fondo.webp);
     background-size:cover;
