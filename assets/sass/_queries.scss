@@ -1,439 +1,654 @@
-@media screen and (min-width:992px){
-    h1{
-        font-size: 1.7rem;
+@media screen and (max-width:576px){
+    .hijo{
+        .logo{
+            padding: 10px;
+        }
     }
-    nav ul li a{
-        margin:0px 28px;
-        font-size: 22px
-    }
-    .hero{
-        margin-top: 150px;
-    }
-    .fotoControlRoom{
-        width: 300px;
-        margin-left: 10px;
-    }
-    .fotoPin{
-        width: 300px;
-        margin-right: 10px;
-    }
-    #instagram{
-        width: 70px;
-        margin-right: 20px;
-    }
-    #youtube{
-        width: 92px;
-        margin-right: 20px;
-    }
-    #whatsapp{
-        width: 70px;
-        border-radius: 10px;
-    }
-    .redes{
-        margin-top: 30px;
-    }
-    footer p{
+    .navBar{
         display: flex;
-        font-size: 12px;
-        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+            li a{
+                font-size: 0.9rem;
+            }
     }
-    .fotoSala{
-        width: 350px;
-        margin-left: 0px;
-    }
-    .fotoTv{
-        width: 370px;
-        margin-right: 0px;
-        margin-bottom: 20px;
-    }
-    .textoEstudio{
-        padding: 10px;
-    }
-    h2{
-        font-size: 1.5rem;
-    }
-    .servicios{
-        margin: 50px;
-    }
-    .listaServicios{
-        font-size: 1.5rem;
-        margin: 100px 300px;
-    }
-    main{
-        height: 79vh;
-    }
-    .container{
-        max-width: 750px;
-    }
-    ul.slider{
-        max-width: 70%;
-    }
-    ul.slider li {
-        width: 600px;
-        opacity: 0;
-        transition: opacity .5s;
-        background:rgba(129, 27, 27, 0.555);
-    }
-    ul.slider li img{
-        height: 325px;
-        width: 685px;
-        object-fit:cover;
-    }
-    ul.slider li:first-child {
-        opacity: 1; /*Mostramos el primer <li>*/
-    }
-    ul.slider li:target {
-        opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
-    }
-    .menu{
-        text-align: center;
-        margin: 20px;
-    }
-    .menu li{
-        display: inline-block;
-        text-align: center;
-    }
-    .menu li a{
-        display: inline-block;
-        color: rgb(255, 0, 0);
-        text-decoration: none;
-        background-color: rgba(59, 6, 249, 0.331);
-        margin-top:20px;
-        padding: 10px;
-        width: 10px;
-        height: 10px;
-        font-size: 10px;
-        border-radius: 100%;
-    }
-    .menu li a:hover{
-        color: rgb(255, 234, 0);
-        text-decoration: none;
-        background-color: rgba(59, 6, 249, 0.569);
-    }
-}
-@media screen and (max-width:992px) and (min-width:768px){
-    h1{
-        font-size: 1.5rem;
-    }
-    nav ul li a{
-        margin:0px 28px;
-        font-size: 1rem;
-    }
-    .hero{
-        margin-top: 150px;
-    }
-    .fotoControlRoom{
-        width: 240px;
-        margin-left: 10px;
-    }
-    .fotoPin{
-        width: 240px;
-        margin-right: 10px;
-    }
-    #instagram{
-        width: 60px;
-        margin-right: 20px;
-    }
-    #youtube{
-        width: 82px;
-        margin-right: 20px;
-    }
-    #whatsapp{
-        width: 60px;
-        border-radius: 10px;
-    }
-    .redes{
-        margin-top: 40px;
-    }
-    footer p{
+    .hijo2{
+        .heroIndex{
+            display: flex;
+            flex-direction: column;
+            margin: 30px 0;    
+            h1{
+                font-size: 1.2rem;
+                padding: 20px;
+            }
+            .fotoControlRoom{
+                width: 10rem;
+            }
+            .fotoPin{
+                width: 10rem;
+            }
+        }
+        .heroEstudio{
+            display: flex;
+            flex-direction: column;
+            margin: 30px 0;    
+            .textoEstudio{
+                font-size: 1.2rem;
+                padding: 20px;
+            }
+            .fotoSala{
+                width: 10rem;
+                height: 10rem;
+                margin: 0;
+            }
+            .fotoTv{
+                width: 10rem;
+                height: 10rem;
+                margin: 0;
+            }
+        }
+        .listaServicios{
+            ul li{
+            padding: 11px;
+            font-size: 1.3rem;
+            }
+        }
+        .galeriaTitulo{
+            display: flex;
+            font-size: 1rem;
+            text-align: center;
+        }
+        .container{
+            margin: auto;
+            background-color: rgba(166, 1, 1, 0.292);
+            width: 300px;
+            padding: 30px;
+        }
+        ul.slider{
+            position: relative;
+            width: 250px;
+            height: 300px;
+            li {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                opacity: 0;
+                width: inherit;
+                height: inherit;
+                transition: opacity .5s;
+                background:rgba(129, 27, 27, 0.555);
+                img{
+                    width: 100%;
+                    height: 300px;
+                    object-fit: cover;
+                }
+            }
+        }
+        .equiposTitulo{
+            font-size: 1rem;
+            padding: 10px;
+        }
+        .redes{
+            display: flex;
+            justify-content: center;
+            flex-direction: row wrap;
+            align-items: center;
+            padding: 0px;
+            #instagram{
+                width: 50px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #youtube{
+                width: 92px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #whatsapp{
+                width: 52px;
+                border-radius: 10px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            }
+        } 
+    .hijo3{
+        p{
         display: flex;
-        font-size: 12px;
+        text-align: center;
         align-items: center;
-    }
-    .fotoSala{
-        width: 250px;
-        margin-left: 0px;
-    }
-    .fotoTv{
-        width: 270px;
-        margin-right: 0px;
-        margin-bottom: 20px;
-    }
-    h2{
-        font-size: 1rem;
-    }
-    .servicios{
-        margin: 50px;
-    }
-    .listaServicios{
-        font-size: 1rem;
-        margin: 100px;
-    }
-    main{
-        height: 80vh;
-    }
-    .container{
-        max-width: 550px;
-    }
-    ul.slider{
-        max-width: 70%;
-    }
-    ul.slider li {
-        width: 490px;
-        opacity: 0;
-        transition: opacity .5s;
-        background:rgba(129, 27, 27, 0.555);
-    }
-    ul.slider li img{
-        height: 320px;
-        width: 500px;
-        object-fit:cover;
-    }
-    ul.slider li:first-child {
-        opacity: 1; /*Mostramos el primer <li>*/
-    }
-    ul.slider li:target {
-        opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
-    }
-    .menu{
-        text-align: center;
-        margin: 20px;
-    }
-    .menu li{
-        display: inline-block;
-        text-align: center;
-    }
-    .menu li a{
-        display: inline-block;
-        color: rgb(255, 0, 0);
-        text-decoration: none;
-        background-color: rgba(59, 6, 249, 0.331);
-        margin-top:20px;
-        padding: 10px;
-        width: 10px;
-        height: 10px;
-        font-size: 10px;
-        border-radius: 100%;
-    }
-    .menu li a:hover{
-        color: rgb(255, 234, 0);
-        text-decoration: none;
-        background-color: rgba(59, 6, 249, 0.569);
-    }
-}
-
-@media screen and (max-width:768px) and (min-width:576px){
-    h1{
-        font-size: 1rem;
-    }
-    nav ul li a{
-        margin:0px 30px;
-        font-size: 1rem;
-    }
-    .hero{
-        flex-direction: column;
-        margin: 20px;
-    }
-    .fotoControlRoom{
-        width: 240px;
-        margin-bottom: 10px;
-    }
-    .fotoPin{
-        width: 240px;
-        margin-top: 10px;
-    }
-    #instagram{
-        width: 40px;
-        margin-right: 20px;
-    }
-    #youtube{
-        width: 62px;
-        margin-right: 20px;
-    }
-    #whatsapp{
-        width: 42px;
-        border-radius: 10px;
-    }
-    footer p{
-        display: flex;
-        font-size: 10px;
-        align-items: center;
-    }
-    .fotoSala{
-        width: 250px;
-        margin-left: 0px;
-    }
-    .fotoTv{
-        width: 250px;
-        margin-right: 0px;
-        margin-bottom: 20px;
-    }
-    h2{
-        font-size: 1rem;
-    }
-    .servicios{
-        margin: 50px;
-    }
-    .listaServicios{
-        font-size: 1rem;
-        margin: 100px;
-    }
-    main{
-        height: 76vh;
-    }
-    .container{
-        max-width: 550px;
-        margin-bottom: 50px;
-    }
-    ul.slider{
-        max-width: 70%;
-    }
-    ul.slider li {
-        width: 490px;
-        opacity: 0;
-        transition: opacity .5s;
-        background:rgba(129, 27, 27, 0.555);
-    }
-    ul.slider li img{
-        height: 320px;
-        width: 500px;
-        object-fit:cover;
-    }
-    ul.slider li:first-child {
-        opacity: 1; /*Mostramos el primer <li>*/
-    }
-    ul.slider li:target {
-        opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
-    }
-    .menu{
-        text-align: center;
-        margin: 20px;
-    }
-    .menu li{
-        display: inline-block;
-        text-align: center;
-    }
-    .menu li a{
-        display: inline-block;
-        color: rgb(255, 0, 0);
-        text-decoration: none;
-        background-color: rgba(59, 6, 249, 0.331);
-        margin-top:20px;
-        padding: 10px;
-        width: 10px;
-        height: 10px;
-        font-size: 10px;
-        border-radius: 100%;
-    }
-    .menu li a:hover{
-        color: rgb(255, 234, 0);
-        text-decoration: none;
-        background-color: rgba(59, 6, 249, 0.569);
-    }
-}
-@media screen and (min-width:200px) and (max-width:576px){
-    h1{
-        font-size: 1rem;
-        margin: 30px
-    }
-    nav ul li a{
-        margin:2px;
+        padding: 0;
         font-size: 0.6rem;
+        }
     }
-    .hero{
-        flex-direction: column;
+}
+@media screen  and (min-width:577px) and (max-width:776px){
+    .hijo{
+        .logo{
+            padding: 10px;
+        }
     }
-    .fotoControlRoom{
-        width: 200px;
-    }
-    .fotoPin{
-        width: 200px;
-    }
-    #instagram{
-        width: 40px;
-        margin-right: 20px;
-    }
-    #youtube{
-        width: 62px;
-        margin-right: 20px;
-    }
-    #whatsapp{
-        width: 42px;
-        border-radius: 10px;
-    }
-    footer p{
+    .navBar{
         display: flex;
-        font-size: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+            li a{
+                font-size: 0.9rem;
+            }
+    }
+    .hijo2{
+        .heroIndex{
+            display: flex;
+            flex-direction: column;
+            margin: 30px 0;    
+            h1{
+                font-size: 1.2rem;
+                padding: 20px;
+            }
+            .fotoControlRoom{
+                width: 10rem;
+            }
+            .fotoPin{
+                width: 10rem;
+            }
+        }
+        .heroEstudio{
+            display: flex;
+            flex-direction: column;
+            margin: 30px 0;    
+            .textoEstudio{
+                font-size: 1.2rem;
+                padding: 20px;
+            }
+            .fotoSala{
+                width: 10rem;
+                height: 10rem;
+                margin: 0;
+            }
+            .fotoTv{
+                width: 10rem;
+                height: 10rem;
+                margin: 0;
+            }
+        }
+        .listaServicios{
+            ul li{
+            padding: 11px;
+            font-size: 1.3rem;
+            }
+        }
+        .galeriaTitulo{
+            display: flex;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .container{
+            margin: auto;
+            background-color: rgba(166, 1, 1, 0.292);
+            width: 500px;
+            padding: 20px;
+        }
+        ul.slider{
+            position: relative;
+            width: 460px;
+            height: 300px;
+            li {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                opacity: 0;
+                width: inherit;
+                height: inherit;
+                transition: opacity .5s;
+                background:rgba(129, 27, 27, 0.555);
+                img{
+                    width: 100%;
+                    height: 330px;
+                    object-fit: cover;
+                }
+            }
+        }
+        .equiposTitulo{
+            font-size: 1rem;
+            padding: 10px;
+        }
+        .redes{
+            display: flex;
+            justify-content: center;
+            flex-direction: row wrap;
+            align-items: center;
+            padding: 0px;
+            #instagram{
+                width: 50px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #youtube{
+                width: 92px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #whatsapp{
+                width: 52px;
+                border-radius: 10px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            }
+        } 
+    .hijo3{
+        p{
+        display: flex;
+        text-align: center;
         align-items: center;
+        padding: 0;
+        font-size: 0.6rem;
+        }
     }
-    .fotoSala{
-        width: 250px;
-        margin-left: 0px;
+}
+@media screen and (min-width:777px) and (max-width:992px){
+    .hijo{
+        .logo{
+            padding: 10px;
+        }
     }
-    .fotoTv{
-        width: 250px;
-        margin-right: 0px;
-        margin-bottom: 20px;
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 0px;
+            li a{
+                font-size: 0.9rem;
+            }
     }
-    h2{
-        font-size: 1rem;
-    }
-    .servicios{
-        margin: 50px;
-    }
-    .listaServicios{
-        font-size: 1rem;
-        margin: 100px;
-    }
-    main{
-        height: 79vh;
-    }
-    .container{
-        max-width: 350px;
-    }
-    ul.slider{
-        max-width: 70%;
-    }
-    ul.slider li {
-        width: 300px;
-        opacity: 0;
-        transition: opacity .5s;
-        background:rgba(129, 27, 27, 0.555);
-    }
-    ul.slider li img{
-        height: 300px;
-        width: 300px;
-        object-fit: contain;
-    }
-    ul.slider li:first-child {
-        opacity: 1; /*Mostramos el primer <li>*/
-    }
-    ul.slider li:target {
-        opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
-    }
-    .menu{
+    .hijo2{
+        .heroIndex{
+            display: flex;
+            flex-direction: column;
+            margin: 30px 0;    
+            h1{
+                font-size: 1.2rem;
+                padding: 20px;
+            }
+            .fotoControlRoom{
+                width: 10rem;
+            }
+            .fotoPin{
+                width: 10rem;
+            }
+        }
+        .heroEstudio{
+            display: flex;
+            flex-direction: column;
+            margin: 30px 0;    
+            .textoEstudio{
+                font-size: 1.2rem;
+                padding: 20px;
+            }
+            .fotoSala{
+                width: 10rem;
+                height: 10rem;
+                margin: 0;
+            }
+            .fotoTv{
+                width: 10rem;
+                height: 10rem;
+                margin: 0;
+            }
+        }
+        .listaServicios{
+            ul li{
+            padding: 5px;
+            font-size: 1.6rem;
+            }
+        }
+        ul.slider{
+            position: relative;
+            width: 660px;
+            height: 300px;
+            li {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                opacity: 0;
+                width: inherit;
+                height: inherit;
+                transition: opacity .5s;
+                background:rgba(129, 27, 27, 0.555);
+                img{
+                    width: 100%;
+                    height: 330px;
+                    object-fit: cover;
+                }
+            }
+        }
+        .redes{
+            display: flex;
+            justify-content: center;
+            flex-direction: row wrap;
+            align-items: center;
+            padding: 0px;
+            #instagram{
+                width: 50px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #youtube{
+                width: 92px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #whatsapp{
+                width: 52px;
+                border-radius: 10px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            }
+        } 
+    .hijo3{
+        p{
+        display: flex;
         text-align: center;
-        margin: 20px;
+        align-items: center;
+        padding: 0;
+        font-size: 0.6rem;
+        }
     }
-    .menu li{
-        display: inline-block;
+}
+@media screen and (min-width:993px) and (max-width:1200px){
+    .hijo{
+        .logo{
+            padding: 10px;
+        }
+    }
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+            li a{
+                font-size: 1.3rem;
+            }
+    }
+    .hijo2{
+        .heroIndex{
+            display: flex;
+            flex-direction: row;
+            margin: 50px 0;    
+            h1{
+                font-size: 1.5rem;
+                padding: 10px;
+            }
+            .fotoControlRoom{
+                width: 20rem;
+            }
+            .fotoPin{
+                width: 20rem;
+            }
+        }
+        .heroEstudio{
+            display: flex;
+            flex-direction: row;
+            margin: 30px 0;    
+            .textoEstudio{
+                font-size: 1.5rem;
+                padding: 20px;
+            }
+            .fotoSala{
+                width: 20rem;
+                height: 20rem;
+                margin: 0;
+            }
+            .fotoTv{
+                width: 20rem;
+                height: 20rem;
+                margin: 0;
+            }
+        }
+        .listaServicios{
+            ul li{
+            font-size: 1.8rem;
+            }
+        }
+        ul.slider{
+            position: relative;
+            width: 900px;
+            height: 300px;
+            li {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                opacity: 0;
+                width: inherit;
+                height: inherit;
+                transition: opacity .5s;
+                background:rgba(129, 27, 27, 0.555);
+                img{
+                    width: 100%;
+                    height: 330px;
+                    object-fit: cover;
+                }
+            }
+        }
+        .redes{
+            display: flex;
+            justify-content: center;
+            flex-direction: row wrap;
+            align-items: center;
+            padding: 0px;
+            #instagram{
+                width: 60px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #youtube{
+                width: 102px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #whatsapp{
+                width: 62px;
+                border-radius: 10px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            }
+        } 
+    .hijo3{
+        p{
+        display: flex;
         text-align: center;
+        align-items: center;
+        padding: 20 0;
+        font-size: 0.8rem;
+        }
     }
-    .menu li a{
-        display: inline-block;
-        color: rgb(255, 0, 0);
-        text-decoration: none;
-        background-color: rgba(59, 6, 249, 0.331);
-        margin-top:20px;
-        padding: 10px;
-        width: 10px;
-        height: 10px;
-        font-size: 10px;
-        border-radius: 100%;
+}
+@media screen and (min-width:1201px) and (max-width:1400px){
+    .hijo{
+        .logo{
+            padding: 10px;
+        }
     }
-    .menu li a:hover{
-        color: rgb(255, 234, 0);
-        text-decoration: none;
-        background-color: rgba(59, 6, 249, 0.569);
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+            li a{
+                font-size: 1.8rem;
+            }
+    }
+    .hijo2{
+        .heroIndex{
+            display: flex;
+            flex-direction: row;
+            margin: 50px 0;    
+            h1{
+                font-size: 1.5rem;
+                padding: 10px;
+            }
+            .fotoControlRoom{
+                width: 20rem;
+            }
+            .fotoPin{
+                width: 20rem;
+            }
+        }
+        .heroEstudio{
+            display: flex;
+            flex-direction: row;
+            margin: 30px 0;    
+            .textoEstudio{
+                font-size: 1.7rem;
+                padding: 20px;
+            }
+            .fotoSala{
+                width: 25rem;
+                height: 25rem;
+                margin: 0;
+            }
+            .fotoTv{
+                width: 25rem;
+                height: 25rem;
+                margin: 0;
+            }
+        }
+        .listaServicios{
+            ul li{
+            font-size: 1.8rem;
+            }
+        }  
+        .redes{
+            display: flex;
+            justify-content: center;
+            flex-direction: row wrap;
+            align-items: center;
+            padding: 0px;
+            #instagram{
+                width: 70px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #youtube{
+                width: 112px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #whatsapp{
+                width: 72px;
+                border-radius: 10px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            }
+        } 
+    .hijo3{
+        p{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 20 0;
+        font-size: 0.8rem;
+        }
+    }
+}
+@media screen and (min-width:1401px){
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        padding: 0;
+            li a{
+                display: flex;
+                font-size: 2rem;
+                margin: 2.2vw;
+            }
+    }
+    .hijo2{
+        .heroIndex{
+            display: flex;
+            flex-direction: row;
+            margin: 50px 0;    
+            h1{
+                font-size: 1.8rem;
+                padding: 10px;
+            }
+            .fotoControlRoom{
+                width: 30rem;
+            }
+            .fotoPin{
+                width: 30rem;
+            }
+        } 
+        .redes{
+            display: flex;
+            justify-content: center;
+            flex-direction: row wrap;
+            align-items: center;
+            padding: 0px;
+            #instagram{
+                width: 70px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #youtube{
+                width: 112px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #whatsapp{
+                width: 72px;
+                border-radius: 10px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            }
+        } 
+    .hijo3{
+        p{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        font-size: 0.7rem;
+        }
     }
 }

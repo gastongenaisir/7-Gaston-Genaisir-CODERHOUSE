@@ -4,7 +4,9 @@
 @import "_footer.scss";
 @import "_contacto.scss";
 @import "_servicios.scss";
-@import "_queriess.scss";
+@import "_queries.scss";
+@import "_galeria.scss";
+@import "equipamiento.scss";
 
 *{
     padding: 0;
@@ -15,7 +17,7 @@
 .padre{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 25% 72% 3%;
+    grid-template-rows: 25% 72% auto;
     grid-template-areas: "header header header"
                          "hero   hero   hero"
                          "footer footer footer";
@@ -30,7 +32,7 @@
     }
 .hijo2{
     grid-area: hero;
-    min-height: 70vh;
+    min-height: 77vh;
     background-color: rgb(34, 9, 9);
     background-image: url(../img/fondo.webp);
     background-size:cover;
