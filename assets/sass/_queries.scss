@@ -1,0 +1,439 @@
+@media screen and (min-width:992px){
+    h1{
+        font-size: 1.7rem;
+    }
+    nav ul li a{
+        margin:0px 28px;
+        font-size: 22px
+    }
+    .hero{
+        margin-top: 150px;
+    }
+    .fotoControlRoom{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .fotoPin{
+        width: 300px;
+        margin-right: 10px;
+    }
+    #instagram{
+        width: 70px;
+        margin-right: 20px;
+    }
+    #youtube{
+        width: 92px;
+        margin-right: 20px;
+    }
+    #whatsapp{
+        width: 70px;
+        border-radius: 10px;
+    }
+    .redes{
+        margin-top: 30px;
+    }
+    footer p{
+        display: flex;
+        font-size: 12px;
+        align-items: center;
+    }
+    .fotoSala{
+        width: 350px;
+        margin-left: 0px;
+    }
+    .fotoTv{
+        width: 370px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .textoEstudio{
+        padding: 10px;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .servicios{
+        margin: 50px;
+    }
+    .listaServicios{
+        font-size: 1.5rem;
+        margin: 100px 300px;
+    }
+    main{
+        height: 79vh;
+    }
+    .container{
+        max-width: 750px;
+    }
+    ul.slider{
+        max-width: 70%;
+    }
+    ul.slider li {
+        width: 600px;
+        opacity: 0;
+        transition: opacity .5s;
+        background:rgba(129, 27, 27, 0.555);
+    }
+    ul.slider li img{
+        height: 325px;
+        width: 685px;
+        object-fit:cover;
+    }
+    ul.slider li:first-child {
+        opacity: 1; /*Mostramos el primer <li>*/
+    }
+    ul.slider li:target {
+        opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+    }
+    .menu{
+        text-align: center;
+        margin: 20px;
+    }
+    .menu li{
+        display: inline-block;
+        text-align: center;
+    }
+    .menu li a{
+        display: inline-block;
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+        background-color: rgba(59, 6, 249, 0.331);
+        margin-top:20px;
+        padding: 10px;
+        width: 10px;
+        height: 10px;
+        font-size: 10px;
+        border-radius: 100%;
+    }
+    .menu li a:hover{
+        color: rgb(255, 234, 0);
+        text-decoration: none;
+        background-color: rgba(59, 6, 249, 0.569);
+    }
+}
+@media screen and (max-width:992px) and (min-width:768px){
+    h1{
+        font-size: 1.5rem;
+    }
+    nav ul li a{
+        margin:0px 28px;
+        font-size: 1rem;
+    }
+    .hero{
+        margin-top: 150px;
+    }
+    .fotoControlRoom{
+        width: 240px;
+        margin-left: 10px;
+    }
+    .fotoPin{
+        width: 240px;
+        margin-right: 10px;
+    }
+    #instagram{
+        width: 60px;
+        margin-right: 20px;
+    }
+    #youtube{
+        width: 82px;
+        margin-right: 20px;
+    }
+    #whatsapp{
+        width: 60px;
+        border-radius: 10px;
+    }
+    .redes{
+        margin-top: 40px;
+    }
+    footer p{
+        display: flex;
+        font-size: 12px;
+        align-items: center;
+    }
+    .fotoSala{
+        width: 250px;
+        margin-left: 0px;
+    }
+    .fotoTv{
+        width: 270px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    .servicios{
+        margin: 50px;
+    }
+    .listaServicios{
+        font-size: 1rem;
+        margin: 100px;
+    }
+    main{
+        height: 80vh;
+    }
+    .container{
+        max-width: 550px;
+    }
+    ul.slider{
+        max-width: 70%;
+    }
+    ul.slider li {
+        width: 490px;
+        opacity: 0;
+        transition: opacity .5s;
+        background:rgba(129, 27, 27, 0.555);
+    }
+    ul.slider li img{
+        height: 320px;
+        width: 500px;
+        object-fit:cover;
+    }
+    ul.slider li:first-child {
+        opacity: 1; /*Mostramos el primer <li>*/
+    }
+    ul.slider li:target {
+        opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+    }
+    .menu{
+        text-align: center;
+        margin: 20px;
+    }
+    .menu li{
+        display: inline-block;
+        text-align: center;
+    }
+    .menu li a{
+        display: inline-block;
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+        background-color: rgba(59, 6, 249, 0.331);
+        margin-top:20px;
+        padding: 10px;
+        width: 10px;
+        height: 10px;
+        font-size: 10px;
+        border-radius: 100%;
+    }
+    .menu li a:hover{
+        color: rgb(255, 234, 0);
+        text-decoration: none;
+        background-color: rgba(59, 6, 249, 0.569);
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:576px){
+    h1{
+        font-size: 1rem;
+    }
+    nav ul li a{
+        margin:0px 30px;
+        font-size: 1rem;
+    }
+    .hero{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .fotoControlRoom{
+        width: 240px;
+        margin-bottom: 10px;
+    }
+    .fotoPin{
+        width: 240px;
+        margin-top: 10px;
+    }
+    #instagram{
+        width: 40px;
+        margin-right: 20px;
+    }
+    #youtube{
+        width: 62px;
+        margin-right: 20px;
+    }
+    #whatsapp{
+        width: 42px;
+        border-radius: 10px;
+    }
+    footer p{
+        display: flex;
+        font-size: 10px;
+        align-items: center;
+    }
+    .fotoSala{
+        width: 250px;
+        margin-left: 0px;
+    }
+    .fotoTv{
+        width: 250px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    .servicios{
+        margin: 50px;
+    }
+    .listaServicios{
+        font-size: 1rem;
+        margin: 100px;
+    }
+    main{
+        height: 76vh;
+    }
+    .container{
+        max-width: 550px;
+        margin-bottom: 50px;
+    }
+    ul.slider{
+        max-width: 70%;
+    }
+    ul.slider li {
+        width: 490px;
+        opacity: 0;
+        transition: opacity .5s;
+        background:rgba(129, 27, 27, 0.555);
+    }
+    ul.slider li img{
+        height: 320px;
+        width: 500px;
+        object-fit:cover;
+    }
+    ul.slider li:first-child {
+        opacity: 1; /*Mostramos el primer <li>*/
+    }
+    ul.slider li:target {
+        opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+    }
+    .menu{
+        text-align: center;
+        margin: 20px;
+    }
+    .menu li{
+        display: inline-block;
+        text-align: center;
+    }
+    .menu li a{
+        display: inline-block;
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+        background-color: rgba(59, 6, 249, 0.331);
+        margin-top:20px;
+        padding: 10px;
+        width: 10px;
+        height: 10px;
+        font-size: 10px;
+        border-radius: 100%;
+    }
+    .menu li a:hover{
+        color: rgb(255, 234, 0);
+        text-decoration: none;
+        background-color: rgba(59, 6, 249, 0.569);
+    }
+}
+@media screen and (min-width:200px) and (max-width:576px){
+    h1{
+        font-size: 1rem;
+        margin: 30px
+    }
+    nav ul li a{
+        margin:2px;
+        font-size: 0.6rem;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .fotoControlRoom{
+        width: 200px;
+    }
+    .fotoPin{
+        width: 200px;
+    }
+    #instagram{
+        width: 40px;
+        margin-right: 20px;
+    }
+    #youtube{
+        width: 62px;
+        margin-right: 20px;
+    }
+    #whatsapp{
+        width: 42px;
+        border-radius: 10px;
+    }
+    footer p{
+        display: flex;
+        font-size: 10px;
+        align-items: center;
+    }
+    .fotoSala{
+        width: 250px;
+        margin-left: 0px;
+    }
+    .fotoTv{
+        width: 250px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    .servicios{
+        margin: 50px;
+    }
+    .listaServicios{
+        font-size: 1rem;
+        margin: 100px;
+    }
+    main{
+        height: 79vh;
+    }
+    .container{
+        max-width: 350px;
+    }
+    ul.slider{
+        max-width: 70%;
+    }
+    ul.slider li {
+        width: 300px;
+        opacity: 0;
+        transition: opacity .5s;
+        background:rgba(129, 27, 27, 0.555);
+    }
+    ul.slider li img{
+        height: 300px;
+        width: 300px;
+        object-fit: contain;
+    }
+    ul.slider li:first-child {
+        opacity: 1; /*Mostramos el primer <li>*/
+    }
+    ul.slider li:target {
+        opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+    }
+    .menu{
+        text-align: center;
+        margin: 20px;
+    }
+    .menu li{
+        display: inline-block;
+        text-align: center;
+    }
+    .menu li a{
+        display: inline-block;
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+        background-color: rgba(59, 6, 249, 0.331);
+        margin-top:20px;
+        padding: 10px;
+        width: 10px;
+        height: 10px;
+        font-size: 10px;
+        border-radius: 100%;
+    }
+    .menu li a:hover{
+        color: rgb(255, 234, 0);
+        text-decoration: none;
+        background-color: rgba(59, 6, 249, 0.569);
+    }
+}

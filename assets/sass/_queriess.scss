@@ -1,0 +1,62 @@
+@media screen and (max-width:576px){
+    .navBar{ 
+        display: flex;  
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        li a{
+            font-size: 0.9rem;
+        }
+    }
+    .hijo2{
+        max-height: 100px;
+        .heroIndex{
+            display: flex;
+            flex-direction: column;
+            margin: 15px 0;    
+            h1{
+                font-size: 1.2rem;
+                padding: 10px;
+            }
+            .fotoControlRoom{
+                width: 10rem;
+            }
+            .fotoPin{
+                width: 10rem;
+            }
+        } 
+        .redes{
+            display: flex;
+            justify-content: center;
+            flex-direction: row wrap;
+            align-items: center;
+            padding: 0px;
+            #instagram{
+                width: 50px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #youtube{
+                width: 92px;
+                margin-right: 20px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            #whatsapp{
+                width: 52px;
+                border-radius: 10px;
+                &:hover{
+                    transform:scale(1.05)
+                }
+            }
+            }
+        } 
+    .hijo3{
+        display: flex;
+        text-align: center;
+    }
+}

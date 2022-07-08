@@ -1,0 +1,42 @@
+.hijo2 {
+    .heroIndex{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 40px;
+        h1{
+            display: flex;
+            flex-flow: row wrap;
+            text-align: center;
+            color: aliceblue;
+            font-family: 'Russo One', sans-serif;
+            font-size: 3rem;
+            text-shadow: red 0 -2px;
+        }
+        h2{
+            display: flex;
+            flex-flow: row wrap;
+            text-align: center;
+            color: aliceblue;
+            font-family: 'Russo One', sans-serif;
+            font-size: 3rem;
+            text-shadow: red 0 -2px;
+        }
+    }
+}
+.fotoControlRoom{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-radius: 40px;
+}
+.fotoPin{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-radius: 40px;
+}
